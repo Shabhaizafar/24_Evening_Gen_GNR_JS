@@ -1,0 +1,57 @@
+=> Web Development : 
+    - How to Create a Website. (static)
+        - ex :- w3school,... etc
+
+    - How to Create a WebApp.  (Dynamic)
+        - ex : social Media,...
+
+
+
+Job : 
+
+1. Front-end Developer : 
+    HTML,CSS,JS,React,Bootstrap,Tailwind... etc
+
+2. Back-end Developer : 
+    Java,Python,CPP,NodeJs,.net,php  etc  
+
+3. Fullstack Developer : 
+    Front + Back end + DB  (SQL + MongoDB)
+
+4. MERN-stack Developer : 
+    M : MongoDB
+    E : EnxpressJs
+    R : React Js
+    N : NodeJs
+
+5. MEAN-stack Developer :
+    M : MongoDB
+    E : EnxpressJs
+    A : Angular
+    N : NodeJs
+    
+6. Software Developer/Engineer : 
+    Java Developer,Python Developer,Website Developer.
+
+
+==============================================================
+=> JS : Javascript 
+
+Use : Add Functionality (WebApp/Website)
+
+
+- scripting language. 
+==============================================================
+ex vs Netscap   browser 
+ |      |
+ |      |
+ JS     JS(First)   (MO,LS)
+
+===================================
+ECMA    
+    ECMASCRIPT 1 ,ES1
+    ES-6  (2015)
+    ES-7  (2016)
+======================
+JS : 1. with HTML 
+     2. Without HTML 
