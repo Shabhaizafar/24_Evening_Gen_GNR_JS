@@ -1,0 +1,41 @@
+
+### ✅ **In-built Functions**
+1. **Create a program that asks the user for their age using `prompt()` and alerts whether they are eligible to vote (18+).**
+
+2. **Use `confirm()` to ask the user: "Do you want to delete your account?" If confirmed, show an alert saying "Account deleted", else "Action canceled".**
+
+---
+
+### 🔠 **String Methods**
+3. **You received a user's full name as `"  John Doe  "`. Write a program to clean up the whitespace using `trim()` and convert it to uppercase.**
+
+4. **Check if an entered email address ends with `"@gmail.com"` using `endsWith()` to validate domain.**
+
+5. **Display the first character of a product name entered by the user using `charAt(0)`.**
+
+6. **Repeat a `"Loading..."` message 5 times to simulate a loading screen using `repeat()`.**
+
+7. **Check if a user's message contains the word `"urgent"` using `includes()` and alert if it's present.**
+
+---
+
+### 📚 **Array Methods & Usage**
+8. **Create a todo list array. Add a new task using `push()`, then remove the first task using `shift()`.**
+
+9. **Write a program to clone a shopping cart array using the spread operator and show both arrays.**
+
+10. **Use `forEach()` to print each item in an order list: `["Pizza", "Burger", "Fries"]`.**
+
+11. **A user’s favorite colors are stored in an array. Use destructuring to extract the first and second colors into variables.**
+
+---
+
+### 🧾 **Object Handling**
+12. **Create an empty object called `userProfile`. Add properties: `name`, `email`, and `age` using dot notation.**
+
+13. **Access and print the `email` property from the `userProfile` object using bracket notation.**
+
+14. **Delete the `age` property from the `userProfile` object using dot notation.**
+
+15. **Use a `for-in` loop to display all keys and values in a `product` object that contains `name`, `price`, and `category`.**
+

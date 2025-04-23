@@ -1,0 +1,40 @@
+in-built Function : propmt,confirm,alert
+string Methods : 
+
+1. `charAt`  
+2. `charCodeAt`  
+3. `codePointAt`  
+4. `concat`  
+5. `endsWith`  
+6. `includes`  
+7. `indexOf`  
+8. `lastIndexOf`  
+9. `repeat`  
+10. `startsWith`  
+11. `toLowerCase`  
+12. `toString`  
+13. `toUpperCase`  
+14. `trim`  
+15. `trimEnd`  
+16. `trimStart`  
+17. `valueOf`  
+18. `slice`  
+19. `substring`  
+20. `substr`
+
+Array : 
+intro Array 
+Basic Mathods : pop,shift,unshift,push
+for-in,for-of,for-each 
+clone array (using concat,slice,spread Operator)
+de-strcturing 
+
+Object : 
+// How to create  Empty Object :
+// How to Access Object : 
+// How to Access Property Value  :   //1. Dot Notation : //2.Bracket Notation : 
+// How to Modify Property Value :  //1. Dot Notation : //2.Bracket Notation : 
+// How to Add New Property : //1. Dot Notation : //2.Bracket Notation : 
+// How to Remove Property : //1. Dot Notation : //2.Bracket Notation : 
+// How to access key's : 
+// for-in Loop : 
