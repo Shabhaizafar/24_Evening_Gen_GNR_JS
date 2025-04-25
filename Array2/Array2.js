@@ -139,3 +139,7 @@
 // }
 
 // isPeli("madam");
+
+// 
+Array Methods : map,filter,foreach,every,some,find,reverse,join 
+String Methods : split 
