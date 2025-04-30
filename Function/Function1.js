@@ -27,8 +27,8 @@
     6. Anonymous Function 
     7. Higher Order Function
     8. recursion Function 
-    9. Getter-Setter Function
     10. Callback Function 
+    9. Getter-Setter Function    // next Module 
 */
 
 
