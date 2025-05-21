@@ -16,3 +16,4 @@
 // How to Change/Modify HTML Element Content using JS:  
 
 document.querySelector('h1').innerHTML = "Changed Data";
+
