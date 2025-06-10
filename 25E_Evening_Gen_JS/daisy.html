@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flat UI TODO List</title>
+  <style>
+    body {
+      background-color: #eaeef1;
+      font-family: 'Helvetica Neue', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 60px;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .todo-container {
+      width: 420px;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    .todo-container h2 {
+      margin: 0 0 20px;
+      text-align: center;
+      color: #333;
+    }
+
+    .todo-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #f6f6f6;
+      margin-bottom: 12px;
+      padding: 12px 15px;
+      border-radius: 6px;
+    }
+
+    .todo-item span {
+      font-size: 15px;
+      color: #444;
+    }
+
+    .todo-item.done span {
+      text-decoration: line-through;
+      color: #aaa;
+    }
+
+    .todo-actions {
+      display: flex;
+      gap: 6px;
+    }
+
+    .todo-actions button {
+      border: none;
+      background: #ddd;
+      padding: 5px 8px;
+      border-radius: 4px;
+      cursor: not-allowed;
+    }
+
+    .add-task {
+      display: flex;
+      margin-top: 20px;
+    }
+
+    .add-task input {
+      flex-grow: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px 0 0 6px;
+      outline: none;
+    }
+
+    .add-task button {
+      padding: 10px 15px;
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .footer-note {
+      font-size: 12px;
+      color: #777;
+      margin-top: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="todo-container">
+    <h2>📝 My TODOs</h2>
+
+    <div class="todo-item">
+      <span>Pay electricity bill</span>
+      <div class="todo-actions">
+        <button>✔</button>
+        <button>🗑</button>
+      </div>
+    </div>
+
+    <div class="todo-item done">
+      <span>Buy groceries</span>
+      <div class="todo-actions">
+        <button>✔</button>
+        <button>🗑</button>
+      </div>
+    </div>
+
+    <div class="todo-item">
+      <span>Call the bank</span>
+      <div class="todo-actions">
+        <button>✔</button>
+        <button>🗑</button>
+      </div>
+    </div>
+
+    <div class="add-task">
+      <input type="text" placeholder="Add a new task..."  />
+      <button >Add</button>
+    </div>
+
+    <div class="footer-note">No JavaScript — UI only</div>
+  </div>
+
+</body>
+</html>

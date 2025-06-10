@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neon Dark TODO List</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      padding-top: 60px;
+      color: #00ffe1;
+      margin: 0;
+    }
+
+    .todo-box {
+      background-color: #1a1a1a;
+      width: 400px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 255, 225, 0.4);
+    }
+
+    h2 {
+      text-align: center;
+      color: #00ffe1;
+      margin-bottom: 20px;
+      text-shadow: 0 0 5px #00ffe1;
+    }
+
+    .todo-item {
+      background: #262626;
+      margin-bottom: 15px;
+      padding: 12px 16px;
+      border-left: 4px solid #00ffe1;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.3s;
+    }
+
+    .todo-item.done {
+      text-decoration: line-through;
+      color: #666;
+      border-left-color: #444;
+    }
+
+    .todo-item:hover {
+      background: #333;
+    }
+
+    .todo-actions button {
+      background: transparent;
+      border: 1px solid #00ffe1;
+      color: #00ffe1;
+      padding: 4px 8px;
+      margin-left: 6px;
+      border-radius: 4px;
+      cursor: not-allowed;
+    }
+
+    .todo-actions button:hover {
+      background-color: #00ffe1;
+      color: #000;
+    }
+
+    .add-task {
+      margin-top: 20px;
+      display: flex;
+    }
+
+    .add-task input {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border-radius: 6px 0 0 6px;
+      background: #222;
+      color: #00ffe1;
+      border: 1px solid #00ffe1;
+      outline: none;
+    }
+
+    .add-task button {
+      padding: 10px 16px;
+      background: #00ffe1;
+      color: #000;
+      border: none;
+      border-radius: 0 6px 6px 0;
+    }
+
+    .footer-note {
+      font-size: 12px;
+      color: #888;
+      margin-top: 15px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="todo-box">
+    <h2>💡 Neon TODO List</h2>
+
+    <div class="todo-item">
+      <span>Finish portfolio design</span>
+      <div class="todo-actions">
+        <button>✔</button>
+        <button>✖</button>
+      </div>
+    </div>
+
+    <div class="todo-item done">
+      <span>Update LinkedIn profile</span>
+      <div class="todo-actions">
+        <button>✔</button>
+        <button>✖</button>
+      </div>
+    </div>
+
+    <div class="todo-item">
+      <span>Prepare client report</span>
+      <div class="todo-actions">
+        <button>✔</button>
+        <button>✖</button>
+      </div>
+    </div>
+
+    <div class="add-task">
+      <input type="text" placeholder="Add a new task..."  />
+      <button >Add</button>
+    </div>
+
+    <div class="footer-note">Neon UI – CSS only, no JS</div>
+  </div>
+
+</body>
+</html>

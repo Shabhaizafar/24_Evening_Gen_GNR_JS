@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.todo-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.todo-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-btn {
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background-color: #45a049;
+}
+
+.material-icons {
+    font-size: 24px;
+}
+
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    gap: 20px;
+    background-color: lightskyblue;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo-item .task-content {
+    flex-grow: 1;
+}
+
+.todo-item button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-item button:hover {
+    background-color: #f2f2f2;
+}
+
+.todo-item button.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.todo-item button.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.todo-item button.update-btn {
+    background-color: #f39c12;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.todo-item button.update-btn:hover {
+    background-color: #e67e22;
+}
+p{
+    color: green;
+    margin: 10px;
+    display: none;
+}
+.todo-item button.done-btn{
+    background-color: #10f327;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+.todo-item button.done-btn:hover{
+    background-color: #137d1d;
+}

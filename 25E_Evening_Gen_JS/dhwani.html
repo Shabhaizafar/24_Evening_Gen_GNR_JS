@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TODO List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .todo-container {
+      background: #fff;
+      padding: 30px;
+      width: 350px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background: #f9f9f9;
+      margin-bottom: 10px;
+      padding: 12px 15px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .task {
+      flex: 1;
+    }
+
+    .buttons button {
+      margin-left: 5px;
+      border: none;
+      background: #ddd;
+      padding: 5px 8px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .buttons button:hover {
+      background: #bbb;
+    }
+
+    .add-task {
+      display: flex;
+      margin-top: 20px;
+    }
+
+    .add-task input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      outline: none;
+    }
+
+    .add-task button {
+      padding: 10px 15px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+     
+    }
+
+    .note {
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="todo-container">
+  <h2>📝 My TODO List</h2>
+  <ul>
+    <li>
+      <span class="task">Buy groceries</span>
+      <div class="buttons">
+        <button>✔️</button>
+        <button>🗑️</button>
+      </div>
+    </li>
+    <li>
+      <span class="task">Read a book</span>
+      <div class="buttons">
+        <button>✔️</button>
+        <button>🗑️</button>
+      </div>
+    </li>
+  </ul>
+
+  <div class="add-task">
+    <input type="text" placeholder="New task..." >
+    <button >Add</button>
+  </div>
+
+  <div class="note">* Interactivity requires JavaScript</div>
+</div>
+
+</body>
+</html>

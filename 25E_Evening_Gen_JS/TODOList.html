@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=check" />
+    <link rel="stylesheet" href="todoList.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        li {
+            list-style: none;
+            margin: 10px 0;
+            padding: 10px;
+            background: #f2f2f2;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        span {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        div.buttons {
+            display: flex;
+            gap: 8px;
+        }
+
+        button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            color: green;
+        }
+
+        .doneTask{
+            color: gray;
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="todo-container">
+        <h1>My To-Do List</h1>
+        <div class="todo-input">
+            <input type="text" id="task-input" placeholder="Add a new task...">
+            <button id="add-btn">
+                <span class="material-icons">add</span> <!-- Add icon -->
+            </button>
+        </div>
+        <p>Data added Successfully</p>
+        <ul id="todo-list">
+            <!-- Sample tasks added here for demonstration -->
+            <li>
+                <span>Todo</span>
+                <div class="buttons">
+                    <button title="Done"><span class="material-icons">check_circle</span></button>
+                    <button title="Delete"><span class="material-icons">delete</span></button>
+                    <button title="Check"><span class="material-symbols-outlined">edit</span></button>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="todoList.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Card Style TODO List</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 60px;
+      min-height: 100vh;
+    }
+
+    .todo-card {
+      background: white;
+      width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .todo-header {
+      background: linear-gradient(90deg, #4facfe, #00f2fe);
+      color: white;
+      padding: 20px;
+      font-size: 22px;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .task-list {
+      padding: 20px;
+    }
+
+    .task {
+      background: #f9f9f9;
+      padding: 12px 15px;
+      margin-bottom: 12px;
+      border-radius: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .task span {
+      flex: 1;
+    }
+
+    .task-actions button {
+      margin-left: 5px;
+      padding: 5px 8px;
+      border: none;
+      border-radius: 4px;
+      background-color: #ddd;
+      cursor: pointer;
+    }
+
+    .task-actions button:hover {
+      background-color: #bbb;
+    }
+
+    .add-section {
+      display: flex;
+      padding: 15px 20px;
+      border-top: 1px solid #eee;
+    }
+
+    .add-section input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 5px 0 0 5px;
+      border: 1px solid #ccc;
+      outline: none;
+    }
+
+    .add-section button {
+      padding: 10px 15px;
+      background-color: #4facfe;
+      color: white;
+      border: none;
+      border-radius: 0 5px 5px 0;
+    }
+
+    .footer-note {
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="todo-card">
+    <div class="todo-header">🧾 Daily Tasks</div>
+    <div class="task-list">
+      <div class="task">
+        <span>Morning workout</span>
+        <div class="task-actions">
+          <button>✔</button>
+          <button>🗑</button>
+        </div>
+      </div>
+      <div class="task">
+        <span>Team meeting</span>
+        <div class="task-actions">
+          <button>✔</button>
+          <button>🗑</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="add-section">
+      <input type="text" placeholder="Add new task..." >
+      <button >Add</button>
+    </div>
+
+    <div class="footer-note">* Buttons are UI-only. No JavaScript functionality.</div>
+  </div>
+
+</body>
+</html>

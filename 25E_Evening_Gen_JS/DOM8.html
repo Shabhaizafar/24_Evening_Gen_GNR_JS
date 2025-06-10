@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        div{
+            background-color: navy;
+            width: 60%;
+            height: 60vh;
+            padding: 20px;
+            color: white;
+            font-size: 24px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        section{
+           color: white;
+            font-size: 24px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <p>LowerCase : <span class="lwr">0</span></p>
+        <p>UpperCase : <span class="upr">0</span></p>
+        <p>Total Words : <span class="wrd">0</span></p>
+        <p>Special Char : <span class="sp">0</span></p>
+    </section>
+    <div>
+
+    </div>
+
+
+    <script>
+        document.body.onkeypress = function (event){
+            // console.log(event.key);
+
+            document.querySelector('div').innerHTML += event.key;
+        }
+    </script>
+</body>
+</html>

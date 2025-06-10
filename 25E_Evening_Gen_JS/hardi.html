@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minimal TODO List</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding-top: 60px;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .todo-box {
+      width: 400px;
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .todo-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .todo-item input[type="checkbox"] {
+      margin-right: 12px;
+      width: 20px;
+      height: 20px;
+    }
+
+    .todo-item label {
+      font-size: 16px;
+      color: #333;
+    }
+
+    .todo-item input[type="checkbox"]:checked + label {
+      text-decoration: line-through;
+      color: #999;
+    }
+
+    .add-task {
+      display: flex;
+      margin-top: 20px;
+    }
+
+    .add-task input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px 0 0 5px;
+      outline: none;
+    }
+
+    .add-task button {
+      padding: 10px 15px;
+      border: none;
+      background-color: #28a745;
+      color: white;
+      border-radius: 0 5px 5px 0;
+    }
+
+    .note {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #888;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="todo-box">
+    <h2>✅ Simple TODO List</h2>
+
+    <div class="todo-item">
+      <input type="checkbox" id="task1">
+      <label for="task1">Walk the dog</label>
+    </div>
+
+    <div class="todo-item">
+      <input type="checkbox" id="task2">
+      <label for="task2">Finish homework</label>
+    </div>
+
+    <div class="todo-item">
+      <input type="checkbox" id="task3">
+      <label for="task3">Water the plants</label>
+    </div>
+
+    <div class="add-task">
+      <input type="text" placeholder="New task..." >
+      <button >Add</button>
+    </div>
+
+    <div class="note">Check tasks visually. Add button is disabled (HTML/CSS only).</div>
+  </div>
+
+</body>
+</html>

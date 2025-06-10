@@ -1,0 +1,41 @@
+📝 JavaScript Event Propagation Task
+Objective:
+Understand and demonstrate the differences between event bubbling, event capturing, event delegation, and the use of stopPropagation().
+
+📌 Task Instructions:
+Setup HTML:
+Create the following HTML structure:
+
+html
+Copy
+Edit
+<div id="parent" style="padding: 30px; background-color: lightblue;">
+  Parent
+  <button id="child" style="margin: 20px;">Click Me</button>
+</div>
+JavaScript Tasks:
+
+a. Event Bubbling (Default Behavior)
+Attach click event listeners to both the parent and child. Log which element is clicked.
+Expected Output: Clicking the child logs both child and parent (bubbling).
+
+b. Event Capturing
+Modify the listeners to use the capture phase. Log events.
+Hint: Use the third parameter true in addEventListener.
+Expected Output: Parent logs first, then child (capturing order).
+
+c. stopPropagation
+Add e.stopPropagation() in the child click handler.
+Expected Output: Only the child handler should run (bubbling/capturing is stopped).
+
+d. Event Delegation
+Remove the child’s individual handler. Instead, listen on the parent and check e.target.
+Expected Output: Clicking the child should still trigger a specific response using delegation logic.
+
+✅ Submission Requirements:
+A single HTML + JS file.
+
+Clear logs showing the different behaviors.
+
+Short comments in code explaining each step.
+

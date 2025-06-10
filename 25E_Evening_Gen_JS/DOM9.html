@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM 9</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            text-align: center;
+            background-color: black;
+        }
+
+        div {
+            width: 300px;
+            height: 500px;
+            margin: 20px auto;
+            background-image: url("bulb.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .on {
+            background-image: url("on.png");
+        }
+
+        button {
+            color: darkblue;
+            background-color: lightcoral;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 24px;
+            padding: 10px 30px;
+            border: 0px;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="on">
+
+    </div>
+    <button>ON</button>
+
+    <script>
+        document.querySelector('button').onclick = function () {
+            //  How to add New Attribute Value using JS : 
+            // if(document.querySelector('div').classList.contains("on")){
+            //     document.querySelector('div').classList.remove('on');
+            // }else{
+            //     document.querySelector('div').classList.add('on');
+            // }
+
+            document.querySelector('div').classList.toggle('on');
+
+            document.querySelector('button').innerHTML = document.querySelector('div').classList.contains("on") ? "OFF" : "ON";
+        }
+    </script>
+</body>
+
+</html>
+
+<!-- 
+
+
+
+-->
