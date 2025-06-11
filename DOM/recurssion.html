@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        function operation(op, n1, n2) {
+            switch (op) {
+                case '+': return +n1 + (+n2);
+                case '-': return +n1 - (+n2);
+                case '/': return +n1 / (+n2);
+                case '*': return +n1 * (+n2);
+            }
+        }
+        var str = "10+5-2+3/4*3";
+        op = "+";
+        var n1 = "0";
+        var n2 = "";
+        var j = 0;
+        const arr = ['%', '+', "-", '/', '*'];
+        for (let i = 0; i < str.length; i++) {
+            if (str.length - 1 == i) {
+                n2 = str.slice(i);
+                n1 = operation(op, n1, n2);
+            }
+            if (arr.includes(str[i])) {
+
+                n2 = str.slice(j, i);
+
+                j = i + 1;
+                n1 = operation(op, n1, n2);
+                op = str[i];
+            }
+        }
+        console.log(n1);
+    </script>
+</body>
+
+</html>
