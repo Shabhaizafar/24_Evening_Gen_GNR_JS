@@ -60,7 +60,18 @@ calc_body.addEventListener('click', function (event) {
                 } else {
                     calc_types.innerHTML += event.target.innerText;
                 }
+            }else if(event.target.innerHTML == "⌫"){
+                if(calc_types.innerHTML.length==1){
+                    calc_types.innerHTML = "0";
+                    return;
+                }
+                calc_types.innerHTML = calc_types.innerHTML.slice(0,calc_types.innerHTML.length-1);
             }
         }
     }
+
+
+
+
+
 });
