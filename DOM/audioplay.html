@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+    <audio src="audio.mp3"></audio>
+    <button>play</button>
+    <button>stop</button>
+
+    <script>
+        var s = document.querySelector('audio');
+        document.querySelector('button').onclick = function (){
+            s.play();   
+        }
+        document.querySelectorAll('button')[1].onclick = function (){
+            s.pause();
+        }
+    </script>
+</body>
+</html>

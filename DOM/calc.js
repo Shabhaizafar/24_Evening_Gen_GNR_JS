@@ -69,9 +69,4 @@ calc_body.addEventListener('click', function (event) {
             }
         }
     }
-
-
-
-
-
 });

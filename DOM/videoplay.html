@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <video src="video.mp4"></video>
+    <button>play</button>
+    <button>stop</button>
+    <button>unmute</button>
+    <button>mute</button>
+    <script>
+        var s = document.querySelector('video');
+        document.querySelector('video').autoplay = true;
+        document.querySelector('video').muted = true;
+
+        document.querySelector('button').onclick = function () {
+            s.play();
+        }
+        document.querySelectorAll('button')[1].onclick = function () {
+            s.pause();
+        }
+        
+        document.querySelectorAll('button')[2].onclick = function () {
+            s.muted = false;
+        }
+        document.querySelectorAll('button')[3].onclick = function () {
+            s.muted = true;
+        }
+    </script>
+</body>
+
+</html>
