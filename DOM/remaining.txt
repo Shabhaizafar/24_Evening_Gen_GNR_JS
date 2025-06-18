@@ -1,0 +1,111 @@
+Async vs defer.
+ Select multiple elements and loop through them.
+  Deeply understand dom tree, root node , element nodes, text nodes.
+  How to get the dimensions of the element.
+  Insert adjacent elements.
+  Clone nodes.
+
+   Intro to events.
+   - This keyword inside eventListener callback.
+
+
+    More events.
+
+
+
+
+
+
+
+
+
+
+
+
+    
+===================================================================
+  ✅ Array+Object destructuring.
+
+   ✅ Computed properties.
+
+ ✅ Default Parameters.
+   ✅ Rest Parameters.
+   ✅ Parameter Destructuring.
+   ✅ Very brief intro to callback functions(covered in great detail  later).
+   ✅ Functions returning Functions.
+
+   => More useful things :-
+
+   ✅ Iterables.
+   ✅ Sets.
+   ✅ Maps.
+   ✅ Object.assign.
+   ✅ Optional chaining.
+
+=> Object Oriented JavaScript / Prototypal Inher itance :-    
+
+   ✅ Methods.
+   ✅ This keyword, Window object.
+   ✅ Call , apply and bind method.
+   - Some warnings.
+   ✅ This inside arrow functions.
+   - Short syntax for methods.
+   ✅ Factory functions & discuss some memory related problems.
+   ✅ First solution to that problem.
+   ✅ Why that solution isn’t that great.
+   ✅ What is _proto_ , [[prototype]].
+   ✅ What is prototype.
+   ✅ Use prototype.
+   ✅ New keyword.
+   ✅ Constructor function with new keyword.
+   ✅ More discussion about proto and prototype.
+   ✅ Class keyword.
+   ✅ Example using class keyword.
+   ✅ Super keyword.
+   ✅ Method overriding.
+   ✅ Getters and setters.
+   - Static methods and properties.
+   - private,final 
+
+    => How JavaScript Works :-
+
+   - Global Execution context. //local
+   - This and window in global execution context.
+   - Hoisting.
+   - Are let and const are hoisted ? What is a reference Error ?.
+   - Function execution context.
+   - Scope chain and lexical environment.
+
+   => Closures :-
+
+   - Intro to closures.
+   - Closure example 1.
+   - Closure Example 2.
+   - Closure Example 3.
+
+
+   => Asynchronous JavaScript :-
+
+   - Is Javascript a synchronous or asynchronous programming language ?.
+   - SetTimeout().
+   - SetTimeout() with 0 millisecond.
+   - Callback Queue.
+   - SetInterval and create little project with setInterval.
+   - Understand callbacks in general.
+   - Callbacks in asynchronous programming.
+   - Callback Hell and Pyramid of dom.
+   - Promises, network request.
+   - Intro to promises.
+   - Microtask Queue.
+   - Function that returns promise.
+   - Promise and settimeout.
+   - Promise.resolve and more about then method.
+   - Convert nested Callbacks to flat code using promises.
+   - Intro to Ajax, HTTP Request.
+   - XHR requests.
+   - Error handling in XHR requests.
+   - XHR request Chaining.
+   - Promisifying XHR requests and chaining using then method.
+   - Fetch API.
+   - Error Handling in Fetch API.
+   - Consume Promises with async and Await.
