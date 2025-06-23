@@ -24,11 +24,11 @@ Async vs defer.
 
     
 ===================================================================
-  ✅ Array+Object destructuring.
+  - Array+Object destructuring.
 
    ✅ Computed properties.
 
- ✅ Default Parameters.
+ - Default Parameters.
    ✅ Rest Parameters.
    ✅ Parameter Destructuring.
    ✅ Very brief intro to callback functions(covered in great detail  later).
@@ -36,34 +36,34 @@ Async vs defer.
 
    => More useful things :-
 
-   ✅ Iterables.
-   ✅ Sets.
-   ✅ Maps.
-   ✅ Object.assign.
-   ✅ Optional chaining.
+   - Iterables.
+   - Sets.
+   - Maps.
+   - Object.assign.
+   - Optional chaining.
 
 => Object Oriented JavaScript / Prototypal Inher itance :-    
 
-   ✅ Methods.
-   ✅ This keyword, Window object.
-   ✅ Call , apply and bind method.
+   - Methods.
+   - This keyword, Window object.
+   - Call , apply and bind method.
    - Some warnings.
-   ✅ This inside arrow functions.
+   - This inside arrow functions.
    - Short syntax for methods.
-   ✅ Factory functions & discuss some memory related problems.
-   ✅ First solution to that problem.
-   ✅ Why that solution isn’t that great.
-   ✅ What is _proto_ , [[prototype]].
-   ✅ What is prototype.
-   ✅ Use prototype.
-   ✅ New keyword.
-   ✅ Constructor function with new keyword.
-   ✅ More discussion about proto and prototype.
-   ✅ Class keyword.
-   ✅ Example using class keyword.
-   ✅ Super keyword.
-   ✅ Method overriding.
-   ✅ Getters and setters.
+   - Factory functions & discuss some memory related problems.
+   - First solution to that problem.
+   - Why that solution isn’t that great.
+   - What is _proto_ , [[prototype]].
+   - What is prototype.
+   - Use prototype.
+   - New keyword.
+   - Constructor function with new keyword.
+   - More discussion about proto and prototype.
+   - Class keyword.
+   - Example using class keyword.
+   - Super keyword.
+   - Method overriding.
+   - Getters and setters.
    - Static methods and properties.
    - private,final 
 
