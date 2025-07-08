@@ -44,8 +44,8 @@ Async vs defer.
 
 => Object Oriented JavaScript / Prototypal Inher itance :-    
 
-   - Methods.
-   - This keyword, Window object.
+   ✅ Methods.
+   ✅ This keyword, Window object.
    - Call , apply and bind method.
    - Some warnings.
    - This inside arrow functions.
@@ -75,6 +75,8 @@ Async vs defer.
    - Are let and const are hoisted ? What is a reference Error ?.
    - Function execution context.
    - Scope chain and lexical environment.
+
+   //////////////////////////
 
    => Closures :-
 
