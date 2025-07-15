@@ -78,34 +78,10 @@ Async vs defer.
 
    => Closures :-
 
-   - Intro to closures.
-   - Closure example 1.
-   - Closure Example 2.
-   - Closure Example 3.
+   ✅ Intro to closures.
+   ✅ Closure example 1.
+   ✅ Closure Example 2.
+   ✅ Closure Example 3.
 
 
-   => Asynchronous JavaScript :-
-
-   - Is Javascript a synchronous or asynchronous programming language ?.
-   - SetTimeout().
-   - SetTimeout() with 0 millisecond.
-   - Callback Queue.
-   - SetInterval and create little project with setInterval.
-   - Understand callbacks in general.
-   - Callbacks in asynchronous programming.
-   - Callback Hell and Pyramid of dom.
-   - Promises, network request.
-   - Intro to promises.
-   - Microtask Queue.
-   - Function that returns promise.
-   - Promise and settimeout.
-   - Promise.resolve and more about then method.
-   - Convert nested Callbacks to flat code using promises.
-   - Intro to Ajax, HTTP Request.
-   - XHR requests.
-   - Error handling in XHR requests.
-   - XHR request Chaining.
-   - Promisifying XHR requests and chaining using then method.
-   - Fetch API.
-   - Error Handling in Fetch API.
-   - Consume Promises with async and Await.
+   
