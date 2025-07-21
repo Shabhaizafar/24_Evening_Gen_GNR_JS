@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Country Selection Form</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        img{
+            width: 200px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h2>Select Your Country</h2>
+        <!-- <form action="#" method="POST"> -->
+        <div>
+            <label for="country">Country:</label>
+            <input type="text" name="Country" list="mylist">
+            <datalist id="mylist">
+                <option value="India">
+                <option value="USA">
+                <option value="UK">
+                <option value="Australia">
+                <option value="Canada">
+            </datalist>
+            <button>Submit</button>
+        </div>
+        <!-- </form> -->
+    </div>
+
+    <script>
+        document.querySelector('button').addEventListener('click', function () {
+            var country = document.querySelector('input').value;
+
+            fetch(`https://restcountries.com/v3.1/name/${country}`).then((data) => {
+                data.json().then((data2) => {
+                    console.log(data2);
+                    var img = document.createElement('img');
+                    // img.attributes['src'].value = data2[0]['flags']['svg'];
+                    img.src = data2[0]['flags']['svg'];
+                    document.body.appendChild(img);
+                }, (err2) => {
+                    console.log("This is an Error", err2);
+                });
+            }, (err) => {
+                console.log("This is an Error", err);
+            });
+
+
+
+            document.querySelector('input').value = "";
+        });
+    </script>
+</body>
+
+</html>
