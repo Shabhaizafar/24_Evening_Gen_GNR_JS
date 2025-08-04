@@ -9,22 +9,23 @@
 // });
 
 
-// var worker;
-// document.querySelectorAll('button')[0].addEventListener('click',function(){
-//     if(!worker){
-//         worker =  new Worker('worker2.js');
-//          worker.onmessage = function (e) {
-//             document.querySelector('span').innerText = e.data;
-//         };
-//     }
-// });
+var worker;
+document.querySelectorAll('button')[0].addEventListener('click',function(){
+    if(!worker){
+        worker =  new Worker('worker2.js');
+         worker.onmessage = function (e) {
+            
+            document.querySelector('span').innerText = e.data;
+        };
+    }
+});
 
 
-// document.querySelectorAll('button')[1].addEventListener('click',function(){
-//     if(worker){
-//         worker.terminate();
-//     }
-// });
+document.querySelectorAll('button')[1].addEventListener('click',function(){
+    if(worker){
+        worker.terminate();
+    }
+});
 
 
 

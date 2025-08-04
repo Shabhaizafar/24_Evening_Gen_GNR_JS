@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: black;
+            color: white;
+            font-family: calibri;
+            font-size: 24px;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+        div,p{
+            width: 500px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <p id="paragraph" draggable="true" ondragstart="onDragstarter(event)">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, vel.</p>
+
+    <div class="p" style="background-color: darkslategray;" ondragover="onDragend(event)" ondrop="onDropdata(event)">
+
+    </div>
+
+
+    <script src="DragandDrop.js"></script>
+</body>
+</html>
