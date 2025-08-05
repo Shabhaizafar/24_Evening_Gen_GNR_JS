@@ -1,0 +1,142 @@
+{
+  "employee_1": {
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "department": "Engineering",
+    "position": "Software Engineer",
+    "salary": 72000
+  },
+  "employee_2": {
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "department": "Marketing",
+    "position": "Content Strategist",
+    "salary": 56000
+  },
+  "employee_3": {
+    "name": "Carol White",
+    "email": "carol.white@example.com",
+    "department": "Finance",
+    "position": "Accountant",
+    "salary": 61000
+  },
+  "employee_4": {
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "department": "HR",
+    "position": "HR Manager",
+    "salary": 65000
+  },
+  "employee_5": {
+    "name": "Emma Taylor",
+    "email": "emma.taylor@example.com",
+    "department": "Engineering",
+    "position": "DevOps Engineer",
+    "salary": 80000
+  },
+  "employee_6": {
+    "name": "Frank Harris",
+    "email": "frank.harris@example.com",
+    "department": "Support",
+    "position": "Technical Support",
+    "salary": 47000
+  },
+  "employee_7": {
+    "name": "Grace Brown",
+    "email": "grace.brown@example.com",
+    "department": "Sales",
+    "position": "Sales Executive",
+    "salary": 54000
+  },
+  "employee_8": {
+    "name": "Henry Wilson",
+    "email": "henry.wilson@example.com",
+    "department": "Engineering",
+    "position": "Backend Developer",
+    "salary": 75000
+  },
+  "employee_9": {
+    "name": "Isabella Moore",
+    "email": "isabella.moore@example.com",
+    "department": "Design",
+    "position": "UI/UX Designer",
+    "salary": 60000
+  },
+  "employee_10": {
+    "name": "Jack Martin",
+    "email": "jack.martin@example.com",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "salary": 67000
+  },
+  "employee_11": {
+    "name": "Karen Clark",
+    "email": "karen.clark@example.com",
+    "department": "Engineering",
+    "position": "Frontend Developer",
+    "salary": 72000
+  },
+  "employee_12": {
+    "name": "Leo Lewis",
+    "email": "leo.lewis@example.com",
+    "department": "Support",
+    "position": "Customer Service Rep",
+    "salary": 45000
+  },
+  "employee_13": {
+    "name": "Mia Walker",
+    "email": "mia.walker@example.com",
+    "department": "Design",
+    "position": "Graphic Designer",
+    "salary": 58000
+  },
+  "employee_14": {
+    "name": "Nathan Hall",
+    "email": "nathan.hall@example.com",
+    "department": "Engineering",
+    "position": "QA Engineer",
+    "salary": 63000
+  },
+  "employee_15": {
+    "name": "Olivia Allen",
+    "email": "olivia.allen@example.com",
+    "department": "HR",
+    "position": "Recruiter",
+    "salary": 52000
+  },
+  "employee_16": {
+    "name": "Paul Young",
+    "email": "paul.young@example.com",
+    "department": "Marketing",
+    "position": "SEO Specialist",
+    "salary": 59000
+  },
+  "employee_17": {
+    "name": "Quinn Hernandez",
+    "email": "quinn.hernandez@example.com",
+    "department": "Sales",
+    "position": "Sales Manager",
+    "salary": 70000
+  },
+  "employee_18": {
+    "name": "Rachel King",
+    "email": "rachel.king@example.com",
+    "department": "Engineering",
+    "position": "Data Scientist",
+    "salary": 90000
+  },
+  "employee_19": {
+    "name": "Samuel Wright",
+    "email": "samuel.wright@example.com",
+    "department": "Finance",
+    "position": "Auditor",
+    "salary": 68000
+  },
+  "employee_20": {
+    "name": "Tina Scott",
+    "email": "tina.scott@example.com",
+    "department": "Marketing",
+    "position": "Brand Manager",
+    "salary": 64000
+  }
+}

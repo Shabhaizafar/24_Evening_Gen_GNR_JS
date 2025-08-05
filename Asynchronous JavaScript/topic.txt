@@ -24,5 +24,3 @@
    - Error Handling in Fetch API.
    - Consume Promises with async and Await.
 
-
-// meggie , gas,water,ingr ,  
