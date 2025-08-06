@@ -1,8 +1,5 @@
 //    - Intro to Ajax, HTTP Request.
 //    - XHR requests.
-//    - Error handling in XHR requests.
-//    - XHR request Chaining.
-//    - Promisifying XHR requests and chaining using then method.
 
 
 // var xmr = new XMLHttpRequest();
